@@ -1,0 +1,49 @@
+/* ************* roadmap-column ************* */
+#roadmap-column {
+	text-align: center;
+	color: black;
+}
+
+#roadmap-column .title h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.691);
+}
+
+#roadmap-column .title .saying {
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+/* ************* roadmap-column .boxes ************* */
+.boxA, .boxB, .boxC{
+	width: 384px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 40px;
+	margin-bottom: 40px;
+}
+
+.boxD p {
+	padding: 0em 30em 0em 30em;
+	margin-bottom: 40px;
+}
+.boxD span {
+	display: block;
+	font-size: 30px;
+	position: relative;
+	bottom: 35px;
+}
+
+.boxE p {
+	padding: 0em 30em 0em 30em;
+}
+.boxE span {
+	display: block;
+	font-size: 30px;
+	position: relative;
+	bottom: 25px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}

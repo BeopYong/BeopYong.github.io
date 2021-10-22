@@ -1,0 +1,65 @@
+form {
+    height: 500px;
+    background-color: white;
+    color: black;
+}
+
+form fieldset {
+    width: 500px;
+    text-align: center;
+    margin-left: 430px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 35px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+span, input, button {
+    position: relative;
+}
+
+.inputPw {
+    right: 8px;
+}
+#pw {
+    right: 8px;
+}
+
+.inputPwCheck {
+    right: 27px;
+}
+#pwCheck {
+    right: 28px;
+}
+
+.inputName {
+    left: 7px;
+}
+#userName {
+    left: 7px;
+}
+
+.inputSsn {
+    left: 15px;
+}
+#ssn {
+    left: 15px;
+}
+#btn-ssn {
+    top: 2px;
+    left: 20px;
+}
+.inputEmail {
+    right: 1px;
+}
+
+form button {
+    background-color: rgba(136, 136, 136, 0.479);
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+form button:hover {
+    color: white;
+}

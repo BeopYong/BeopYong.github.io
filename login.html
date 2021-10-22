@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/login.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header 구성 -->
+    <div id="header-wrapper">
+        <div id="header" class="container">
+            <div id="logo">
+                <h2><a href="index.html">YooBeopYong</a></h2>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="login.html" title=""><strong>로그인</strong></a></li>
+                    <li><a href="introduction.html" title=""><strong>자기소개</strong></a></li>
+                    <li><a href="interest.html" title=""><strong>관심사</strong></a></li>
+                    <li><a href="roadmap.html" title=""><strong>개발자 로드맵</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- login main 구성 -->
+    <form action="javascript:alert('제출성공');">
+        <fieldset>
+            <legend><h3>로그인</h3></legend>
+            <span class="inputId">아이디 : </span>
+            <input type="text" name="userId" id="userId" placeholder="아이디"><br>
+            <span class="inputPw">비밀번호 : </span>
+            <input type="password" id="pw" placeholder="비밀번호">
+            <button type="submit" id="submit">확인</button><br>
+            <div class="btn-wrapper">
+                <button type="button" onclick="location.href='signin.html'">회원가입</button>
+                <button>회원목록 열람</button>
+            </div>
+        </fieldset>
+    </form>
+    
+    <!-- copyright 구성 -->
+    <div id="copyright" class="container">
+        <p>Copyright &copy; 2021 Yoo Beop Yong All rights reserved. </p>
+    </div>
+</body>
+</html>

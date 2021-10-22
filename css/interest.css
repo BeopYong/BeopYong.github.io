@@ -1,0 +1,35 @@
+/* ************* interest-column ************* */
+#interest-column {
+	text-align: center;
+	color: black;
+}
+
+#interest-column .title h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.691);
+}
+
+#interest-column .title .saying {
+	font-weight: bold;
+	text-align: center;
+	color: blue;
+}
+
+/* ************* interest-column .boxes ************* */
+.boxA, .boxB, .boxC {
+	width: 384px;
+	float: left;
+	margin-right: 20px;
+	padding-left: 40px;
+}
+
+.boxA img, .boxB img, .boxC img {
+	width: 350px;
+	height: 218.75px;
+	border-radius: 20px;
+}
+
+.boxA img:hover, .boxB img:hover, .boxC img:hover {
+	box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.452);;
+}

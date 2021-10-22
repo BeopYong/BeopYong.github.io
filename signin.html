@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <!-- header 구성 -->
+    <div id="header-wrapper">
+        <div id="header" class="container">
+            <div id="logo">
+                <h2><a href="index.html">YooBeopYong</a></h2>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="login.html" title=""><strong>로그인</strong></a></li>
+                    <li><a href="introduction.html" title=""><strong>자기소개</strong></a></li>
+                    <li><a href="interest.html" title=""><strong>관심사</strong></a></li>
+                    <li><a href="roadmap.html" title=""><strong>개발자 로드맵</strong></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- signin main 구성 -->
+    <form action="javascript:alert('가입 성공!');" name="signForm">
+        <fieldset>
+            <legend><h3>회원가입</h3></legend>
+            <span class="inputId">아이디 : </span>
+            <input type="text" name="userId" id="userId" placeholder="아이디"><br>
+            <span class="inputPw">비밀번호 : </span>
+            <input type="password" id="pw" placeholder="비밀번호"><br>
+            <span class="inputPwCheck">비밀번호 확인 : </span>
+            <input type="password" id="pwCheck" placeholder="비밀번호확인"><br>
+            <span class="inputName">이름 : </span>
+            <input type="text" name="userName" id="userName" placeholder="이름"><br>
+            <span class="inputSsn">주민번호 : </span>
+            <input type="text" id="ssn" placeholder="주민번호(-포함 14자리)">
+            <button type="button" id="btn-ssn">확인</button><br>
+            <span class="inputEmail">이메일 : </span>
+            <input type="email" name="email" id="email" placeholder="이메일"><br>
+            <button type="submit">가입</button>
+        </fieldset>
+    </form>
+
+    <!-- copyright 구성 -->
+    <div id="copyright" class="container">
+        <p>Copyright &copy; 2021 Yoo Beop Yong All rights reserved. </p>
+    </div>
+
+    <!-- signin.js 불러오기 -->
+    <script src="js/signin.js"></script>
+</body>
+</html>

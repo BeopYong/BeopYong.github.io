@@ -1,0 +1,15 @@
+/* ************* banner ************* */
+#banner {
+    display: inline;
+    padding-top: 10em;
+    text-align: center;
+}
+
+#banner .title h2 {
+    display: inline;
+    position: relative;
+    top: 250px;
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.705);
+    text-shadow: 3px 3px 5px;
+}

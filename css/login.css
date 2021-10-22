@@ -1,0 +1,46 @@
+form {
+    height: 300px;
+    background-color: white;
+    color: black;
+}
+
+form fieldset {
+    width: 400px;
+    text-align: center;
+    margin-left: 470px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 20px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+
+form .inputId {
+    position: relative;
+    right: 16px;
+}
+
+form .btn-wrapper {
+    text-align: center;
+}
+
+form button {
+    background-color: rgba(136, 136, 136, 0.479);
+    border-radius: 8px;
+    border: 0;
+    cursor: pointer;
+}
+form button:hover {
+    color: white;
+}
+
+fieldset #pw {
+    position: relative;
+    left: 14px;
+}
+
+fieldset #submit {
+    position: relative;
+    left: 20px;
+    top: 1px;
+}

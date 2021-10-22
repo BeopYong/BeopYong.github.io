@@ -1,0 +1,248 @@
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: #000000d5;
+		color: #FFF;
+	}
+	
+	p, ol, ul {
+		margin-top: 0;
+	}
+
+	p {
+		line-height: 180%;
+	}
+	
+	.container {
+		overflow: hidden;
+	}
+	
+/*********************************************************************************/
+/* boxes                                                                         */
+/*********************************************************************************/
+
+	/* .boxA, .boxB, .boxC, .boxD, .boxE, .boxF{
+		width: 384px;
+		float: left;
+		margin-right: 20px;
+		padding-left: 30px;
+	}
+	.boxA, .boxB, .boxC {
+		margin-bottom: 20px;
+	}
+	.boxD, .boxE {
+		padding-left: 40px;
+	}
+	.boxF {
+		padding-left: 30px;
+	}
+
+	.boxA img, .boxB img, .boxC img {
+		width: 350px;
+		height: 218.75px;
+		border-radius: 20px;
+	}
+
+	.boxA img:hover, .boxB img:hover, .boxC img:hover {
+		box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.452);;
+	}
+
+	.boxA {
+		padding-left: 50px;
+	} */
+	
+/*********************************************************************************/
+/* Heading Titles                                                                */
+/*********************************************************************************/
+
+	.title {
+		margin-bottom: 3em;
+	}
+	
+	.title h2 {
+		font-size: 2.7em;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#wrapper {
+		position: relative;
+		padding: 2em 0em 5em 0em;
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper {
+		position: relative;
+		padding: 5em 0em 7em 0em;
+		background: gray url(../images/flight.jpg) no-repeat center;
+		background-size: cover;
+	}
+
+	#header {
+		position: relative;
+		padding: 5em 0em;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+	#logo {
+		position: absolute;
+		top: 0.2em;
+		/* left: 0; */
+	}
+	
+	#logo a {
+		text-decoration: none;
+		color: black;
+		padding-left: 100px;
+	}
+
+	#logo:hover a {
+		color: rgba(0, 0, 0, 0.712)
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+	#menu {
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+		padding-right: 80px;
+		top: 2em;
+	}
+	
+	#menu ul {
+		display: inline-block;
+	}
+	
+	#menu li {
+		display: block;
+		float: left;
+		text-align: center;
+	}
+	
+	#menu li a, #menu li span {
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		color: black;
+	}
+
+	#menu li:hover a {
+		color: white;
+	}
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 10em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 2em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 1em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+	
+	.banner
+	{
+		margin-bottom: 5em;
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright {
+		padding: 1em 0em 0em;
+		border-top: 1px solid rgba(0,0,0,0.08);
+	}
+	
+	#copyright p {
+		text-align: center;
+		font-size: 0.8em;
+		color: rgba(255,255,255,0.3);
+	}
+
+/*********************************************************************************/
+/* Extra                                                                         */
+/*********************************************************************************/
+
+	/* #three-column
+	{
+		text-align: center;
+		color: black;
+	}
+	
+	#three-column .title h3
+	{
+		font-weight: bold;
+		margin-bottom: 20px;
+		color: rgba(0, 0, 0, 0.691);
+	}
+
+	#three-column .title .byline
+	{
+		font-weight: bold;
+		text-align: center;
+		color: rgba(0, 0, 0, 0.794);
+	}
+
+	#three-column .title img 
+	{
+		height: 250px;
+		margin-bottom: 10px;
+		border-radius: 15px;
+		box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.452);
+	}
+
+	#three-column .all-sub
+	{
+		margin-bottom: 80px;
+		display: flex;
+		align-items: center;
+	}
+
+	#three-column .sub-title
+	{
+		display: inline;
+		margin-left: 8%;
+		font-weight: 1000;
+	}
+
+	#three-column .sub-title .content
+	{
+		margin-top: 10px;
+		display: flex;
+		align-content: center;
+	} */

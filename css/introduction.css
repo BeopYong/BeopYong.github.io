@@ -1,0 +1,52 @@
+/* ************* introduction-column ************* */
+#introduction-column {
+	text-align: center;
+	color: black;
+}
+
+#introduction-column .title h3 {
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: rgba(0, 0, 0, 0.691);
+}
+
+#introduction-column .title .myname {
+	font-weight: bold;
+	text-align: center;
+	color: rgba(0, 0, 0, 0.794);
+}
+
+#introduction-column .title img {
+	height: 250px;
+	margin-bottom: 10px;
+	border-radius: 15px;
+	box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.452);
+}
+
+#introduction-column .all-sub {
+	margin-bottom: 80px;
+	display: flex;
+	align-items: center;
+}
+
+#introduction-column .sub-title {
+	display: inline;
+	margin-left: 8%;
+	font-weight: 1000;
+}
+
+#introduction-column .sub-title .content {
+	margin-top: 10px;
+	display: flex;
+	align-content: center;
+}
+
+/* ************* introduction-column .box ************* */
+.boxA {
+	width: 384px;
+	padding-left: 500px;
+}
+
+.boxA ul {
+	text-align: left;
+}
